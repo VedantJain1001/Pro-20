@@ -12,15 +12,15 @@ var canvas;
 
 function preload() {
     
-    backgroundImg = loadImage("garden.png");
+    backgroundImg = loadImage("images/garden.png");
     
-    jerryImg1 = loadAnimation("jerryOne.png");
-    jerryImg2 = loadAnimation("jerryTwo.png", "jerryThree.png"); 
-    jerryImg3 = loadAnimation("jerryFour.png");
+    jerryImg1 = loadAnimation("images/jerryOne.png");
+    jerryImg2 = loadAnimation("images/jerryTwo.png", "images/jerryThree.png"); 
+    jerryImg3 = loadAnimation("images/jerryFour.png");
 
-    tomImg1 = loadAnimation("tomOne.png");
-    tomImg2 = loadAnimation("tomTwo.png", "tomThree.png");
-    tomImg3 = loadAnimation("tomFour.png");
+    tomImg1 = loadAnimation("images/tomOne.png");
+    tomImg2 = loadAnimation("images/tomTwo.png", "images/tomThree.png");
+    tomImg3 = loadAnimation("images/tomFour.png");
     
 }
 
